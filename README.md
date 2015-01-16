@@ -2,6 +2,16 @@
 
 Uploads Glitch food and drink icons as custom emoji to a Slack team.
 
+## usage
+
+```
+npm install
+git clone git@github.com:bertrandom/glitch-assets-parser.git
+node index [teamdomain]
+```
+
+Where [teamdomain] is the prefix to your Slack domain.
+
 ![:abbasid-ribs:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/abbasid_ribs/abbasid_ribs__x1_iconic_png_1354829688.png)
 ![:apple:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/apple/apple__x1_iconic_png_1354829396.png)
 ![:applejack:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/applejack/applejack__x1_iconic_png_1354830825.png)
@@ -178,16 +188,6 @@ Uploads Glitch food and drink icons as custom emoji to a Slack team.
 ![:wicked-bolognese-sauce:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/wicked_bolognese_sauce/wicked_bolognese_sauce__x1_iconic_png_1354830065.png)
 ![:wine-of-the-dead:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/wine_of_the_dead/wine_of_the_dead__x1_iconic_png_1354830988.png)
 ![:yummy-gruel:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/yummy_gruel/yummy_gruel__x1_iconic_png_1354830068.png)
-
-## usage
-
-```
-npm install
-git clone git@github.com:bertrandom/glitch-assets-parser.git
-node index [teamdomain]
-```
-
-Where [teamdomain] is the prefix to your Slack domain.
 
 ## license
 
