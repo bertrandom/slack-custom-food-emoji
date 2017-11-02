@@ -4,15 +4,23 @@ Uploads Glitch food and drink icons as custom emoji to a Slack team.
 
 ## usage
 
-Sign into Slack in Google Chrome.
+- Sign into your Slack workspace in Google Chrome.
+- Run the following commands in your terminal
 
 ```
+# Clone the food emoji project to slack-custom-food-emoji
+git clone git@github.com:bertrandom/slack-custom-food-emoji.git
+# Change directory to 
+cd slack-custom-food-emoji
+# Install dependencies
 npm install
+# Downloads the glitch-assets-parser repo to ./glitch-assets-parser
 git clone git@github.com:bertrandom/glitch-assets-parser.git
-node index [teamdomain]
+# Uploads the emoji to your workspace
+node ./index.js [workspace name]
 ```
 
-Where [teamdomain] is the prefix to your Slack domain.
+Where [workspace name] is the prefix to your Slack domain. For example if you access slack using https://example.slack.com, you would use `node ./index.js example`
 
 ![:abbasid-ribs:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/abbasid_ribs/abbasid_ribs__x1_iconic_png_1354829688.png)
 ![:apple:](https://raw.githubusercontent.com/bertrandom/glitch-assets-parser/master/glitch-assets/apple/apple__x1_iconic_png_1354829396.png)
